@@ -1,29 +1,69 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Data Analyst Intern",
+    "organisation": "Unified Mentor Private Limited",
+    "startDate": "Sept, 2024",
+    "endDate": "Oct, 2024",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Learned about data handling, data modelling, data manipulation, and data visualization",
+      "Grasped the importance of precise and detailed visualization using Tableau and PowerBI",
+      "Gained proficiency in Python using Google Colab for data analytics",
+      "Acquired knowledge in Exploratory Data Analysis (EDA), Break-even Analysis, Funnel Analysis using Excel, and MySQL"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/unifiedmentor.png"
+  },
+  {
+    "role": "Project - Auto Elite Launch Sales Targets Analysis",
+    "organisation": "Self-initiated",
+    "startDate": "Jan, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Explored company data to ensure successful launch and growth by establishing sales goals",
+      "Created bar chart analysis in Python for performance insights against sales targets"
+    ],
+    "imageSrc": "history/autoelite.png"
+  },
+  {
+    "role": "Project - Kyle Info Customer Service Complaints Analysis",
+    "organisation": "Self-initiated",
+    "startDate": "Jan, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Analyzed data related to customer complaints focusing on key product categories",
+      "Performed Pareto Analysis and provided actionable recommendations to reduce complaints"
+    ],
+    "imageSrc": "history/kyleinfo.png"
+  },
+  {
+    "role": "Project - Sun Electronics Exploratory Data Analysis",
+    "organisation": "Self-initiated",
+    "startDate": "Oct, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Performed Exploratory Data Analysis (EDA) using Google Sheets",
+      "Developed insights and solved key business problems using dashboards"
+    ],
+    "imageSrc": "history/sunelectronics.png"
+  },
+  {
+    "role": "Project - Pizza Hut Data Analysis",
+    "organisation": "Self-initiated",
+    "startDate": "Aug, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Created a database using MySQL based on GitHub repository data",
+      "Solved queries and analyzed data using MySQL functions"
+    ],
+    "imageSrc": "history/pizzahut.png"
+  },
+  {
+    "role": "Project - Amaya Online Clothing Store Analysis",
+    "organisation": "Self-initiated",
+    "startDate": "Jul, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Developed insights to boost sales and demand in different categories based on orders using MS Excel"
+    ],
+    "imageSrc": "history/amaya.png"
   }
 ]

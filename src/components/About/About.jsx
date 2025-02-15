@@ -10,37 +10,34 @@ export const About = () => {
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
+          alt="Utsav Raj with data visualization tools"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Data Analyst</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                I specialize in analyzing and interpreting complex data to drive business decisions. My experience includes using tools like SQL, Python, and data visualization tools like Tableau and Power BI.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Data Visualization</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                I am skilled at creating interactive dashboards and reports that help visualize complex datasets, aiding decision-making across various industries.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Data-Driven Insights</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I use data to derive actionable insights, helping businesses improve performance through EDA, statistical analysis, and predictive modeling.
               </p>
             </div>
           </li>

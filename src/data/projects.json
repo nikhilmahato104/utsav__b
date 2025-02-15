@@ -1,26 +1,42 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Auto Elite Launch Sales Targets Analysis",
+    "imageSrc": "projects/autoelite.png",
+    "description": "Analyzed sales data for Auto Elite's launch and growth, establishing targets and performance goals.",
+    "skills": ["Python", "Data Visualization", "Tableau", "Power BI"],
+    "demo": "https://drive.google.com/utsav-raj0210/",
+    "source": "https://github.com/utsav-raj0210"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Kyle Info Customer Service Complaints Analysis",
+    "imageSrc": "projects/kyleinfo.png",
+    "description": "Analyzed customer service complaints, focused on key product categories, and provided actionable recommendations using Pareto Analysis.",
+    "skills": ["Python", "Data Analysis", "Pareto Analysis", "Tableau"],
+    "demo": "https://drive.google.com/utsav-raj0210/",
+    "source": "https://github.com/utsav-raj0210"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Sun Electronics Exploratory Data Analysis",
+    "imageSrc": "projects/sunelectronics.png",
+    "description": "Performed Exploratory Data Analysis on Sun Electronics data and developed insights using Google Sheets and dashboards.",
+    "skills": ["Google Sheets", "Data Analysis", "Exploratory Data Analysis (EDA)"],
+    "demo": "https://drive.google.com/utsav-raj0210/",
+    "source": "https://github.com/utsav-raj0210"
+  },
+  {
+    "title": "Pizza Hut Data Analysis",
+    "imageSrc": "projects/pizzahut.png",
+    "description": "Created a MySQL database based on data from Pizza Hut and solved queries to derive actionable insights.",
+    "skills": ["MySQL", "Data Analysis", "SQL Queries"],
+    "demo": "https://drive.google.com/utsav-raj0210/",
+    "source": "https://github.com/utsav-raj0210"
+  },
+  {
+    "title": "Amaya Online Clothing Store Analysis",
+    "imageSrc": "projects/amaya.png",
+    "description": "Developed insights and provided recommendations to boost sales and demand for different product categories in Amaya Online Store.",
+    "skills": ["MS Excel", "Data Analysis", "Sales Analysis"],
+    "demo": "https://drive.google.com/utsav-raj0210/",
+    "source": "https://github.com/utsav-raj0210"
   }
 ]

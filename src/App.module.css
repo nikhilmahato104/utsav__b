@@ -1,8 +1,91 @@
-@import "./vars.css";
+/* App.module.css */
 
+/* Body Setup for Universe Effect */
+body {
+  background-color: black; /* Space-like background */
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Allow body to be scrollable */
+  width: 100%;
+  overflow: auto; /* Allow scrolling */
+  position: relative;
+}
+
+/* Main App container */
 .App {
-  background-color: var(--color-bg);
+  position: relative; /* Ensures that other elements can be placed on top */
+  min-height: 100vh; /* Ensures the content stretches to full screen height but allows scrolling */
+}
+
+/* Create blinking stars effect */
+@keyframes blink {
+  0% { opacity: 0.1; }
+  50% { opacity: 1; }
+  100% { opacity: 0.1; }
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  background: black; /* Base color of the universe */
+  z-index: -1; /* Keeps the stars behind other content */
 }
+
+/* Realistic Stars */
+.stars::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, white 10%, transparent 10%) repeat;
+  background-size: 10px 10px;
+  opacity: 0.8;
+  animation: blink 2s infinite;
+}
+
+/* Planet Styling */
+.planet {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: #3e8e41; /* Earth-like planet */
+  background-image: radial-gradient(circle, #4aaf69, #3e8e41); /* Adding gradient for texture */
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5); /* Glowing effect */
+  transform: translateX(-50%);
+  animation: planetOrbit 30s infinite linear; /* Planet orbit effect */
+}
+
+/* Planet Orbit Animation */
+@keyframes planetOrbit {
+  0% {
+    transform: translateX(-50%) rotate(0deg) translateX(400px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg) translateX(400px) rotate(-360deg);
+  }
+}
+
+/* Starfield: Adding random opacity and size for stars */
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+  animation: starTwinkle 3s infinite ease-in-out;
+}
+
+/* Twinkling Stars */
+@keyframes starTwinkle {
+  0% { opacity: 0.2; }
+  50% { opacity: 1; }
+  100% { opacity: 0.2; }
+}
+

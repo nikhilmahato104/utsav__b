@@ -9,6 +9,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  /* background: red; */
 }
 
 .content {
@@ -109,3 +110,72 @@
     align-items: center;
   }
 }
+/* Styling for the resume button */
+.resumeBtn {
+  text-decoration: none;
+  background-color: var(--color-secondary); /* You can adjust this color to fit your design */
+  color: var(--color-text); /* Text color for the button */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 22px; /* Button text size */
+  font-weight: 100;
+  padding: 18px 30px; /* Button padding for better size */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Slight shadow to give the button depth */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Pointer cursor to indicate clickable area */
+}
+
+.resumeBtn:hover {
+  transform: translateY(-3px); /* Button lifts on hover */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Darker shadow on hover for depth */
+}
+
+.resumeBtn:active {
+  transform: translateY(1px); /* Button presses down on click */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); /* Softer shadow when clicked */
+}
+/* Container for the buttons */
+.buttons {
+  display: flex;
+  gap: 15px; /* Adds spacing between the buttons */
+  flex-wrap: wrap; /* Ensures the buttons wrap on smaller screens */
+  justify-content: center; /* Centers the buttons horizontally */
+  margin-top: 20px; /* Adds space between the text and the buttons */
+}
+
+/* Contact button styling */
+.contactBtn,
+.resumeBtn {
+  text-decoration: none;
+  background-color: var(--color-primary); /* You can adjust this color to fit your design */
+  color: var(--color-text); /* Text color for the button */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 20px; /* Smaller font size */
+  font-weight: 600;
+  padding: 10px 20px; /* Button padding for better size */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Light shadow for the button */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Pointer cursor to indicate clickable area */
+}
+
+/* Hover effect for the buttons */
+.contactBtn:hover,
+.resumeBtn:hover {
+  transform: translateY(-2px); /* Button lifts on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Darker shadow on hover for depth */
+}
+
+/* Active effect for the buttons */
+.contactBtn:active,
+.resumeBtn:active {
+  transform: translateY(1px); /* Button presses down on click */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Softer shadow when clicked */
+}
+
+/* Responsive adjustments for smaller screens */
+
